@@ -10,7 +10,7 @@ body{
 	margin-left: 100px;
 }
 h1{
-    margin: 0 0 10px;
+    margin: 0px;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #2d3c49;
@@ -29,25 +29,34 @@ h1{
 	float: right;
 }
 .relative-right{
-	position: relative;
 	text-align: right;
-	bottom: 16px;
+	margin: 0px;
 }
 .tab{
 	background-color: #7d97ad;
 	height: 3px;
+	margin-top: 4px;
 }
-@media screen and (max-width: 650px){
+@media screen and (max-width: 768px){
       h1{
-        font-size: 25px;
+        font-size: 23px;
       }
       .relative-right{
-      	font-size: 16px;
+      	font-size: 15px;
       }
+}
 @media screen and (max-width: 360px){
-      h1{
+      .container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	}
+	h1{
         font-size: 16px;
-      }
+        text-align: center;
+    }
       .relative-right{
       	font-size: 12px;
-      }
+      	text-align: center;
+    }
+}
