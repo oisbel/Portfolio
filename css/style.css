@@ -55,7 +55,7 @@ figure{
 .title{
 	float: right;
 }
-.career{
+h4{
 	text-align: right;
 	margin: 0px;
 }
@@ -110,22 +110,18 @@ box-shadow: 0px 0px 26px -7px rgba(0,0,0,0.75);
     h3{
     	font-size: 18px;
     }
-    .career{
+    h4{
       	font-size: 15px;
     }
-    figure img{
-	padding-left: 0px;
-	padding-right: 0px;
-	}
 }
 
 /*Small screens*/
 @media screen and (max-width: 500px){
 	body{
 	margin-top: 10px;
-	margin-right: 20px;
+	margin-right: 10px;
 	margin-bottom: 10px;
-	margin-left: 20px;
+	margin-left: 10px;
 	}
     .main-image{
 	padding-left: 0px;
@@ -140,11 +136,7 @@ box-shadow: 0px 0px 26px -7px rgba(0,0,0,0.75);
     h3{
         font-size: 14px;
     }
-    .career{
+    h4{
       	font-size: 12px;
     }
-    .project img{
-	width: 240px;
-	height: 135px;
-	}
 }
