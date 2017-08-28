@@ -9,6 +9,9 @@
 	<meta name="author" content="Oisbel Simpson">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/code.js"></script>
 </head>
 <body>
 	<header>
@@ -20,7 +23,7 @@
 				</picture>
 			<div class="title">
 				<h1>Oisbel Simpson</h1>
-				<h4>Full Stack Web Developer</h4>
+				<h4 class="text-right">Full Stack Web Developer</h4>
 			</div>
 		</div>
 
@@ -29,25 +32,26 @@
 		<img class="main-image" src="img/main.jpg" alt="Portfolio">
 
 	</header>
+	<!--Projects's container-->
 	<section class="portfolio">
 		<h3 id="feature-work">Feature Work</h3>
 		<div class="projects-container">
-			<div class="project">
+			<div class="project text-center">
 				<picture>
 					<source media="(min-width: 1400px)" srcset="img/1366/movies.jpg">
   					<source media="(min-width: 500px)" srcset="img/medium/movies.jpg">
 					<img src="img/500/movies.jpg" alt="Movies"
 						title="A Movie Trailer static web page created using python">
 				</picture>
-				<h2 class="text-center">Movie Trailer Website</h2>
-				<div class="center-a">
-					<a class="text-center" target="_blank" href="https://github.com/oisbel/ud036_StarterCode.git"
+				<h2>Movie Trailer Website</h2>
+				<div>
+					<a target="_blank" href="https://github.com/oisbel/ud036_StarterCode.git"
 						title="A Movie Trailer static web page created using python">
 						https://github.com/StarterCode
-				</a>
+					</a>
 				</div>
 			</div>
-			<div class="project">
+			<div class="project text-center">
 				<picture>
 					<source media="(min-width: 1400px)" srcset="img/1366/portfolio.jpg">
 					<source media="(min-width: 500px)" srcset="img/medium/portfolio.jpg">
@@ -55,14 +59,14 @@
 						title="Example of a Responsive Web Design that look good on any divive, from desktop to mobile">
 				</picture>
 				<h2 class="text-center">Portfolio</h2>
-				<div class="center-a">
-					<a class="text-center" target="_blank" href="https://github.com/oisbel/Portfolio.git"
+				<div>
+					<a target="_blank" href="https://github.com/oisbel/Portfolio.git"
 						title="Example of a Responsive Web Design that look good on any divive, from desktop to mobile">
 						https://github.com/Portfolio
-				</a>
+					</a>
 				</div>
 			</div>
-			<div class="project">
+			<div class="project text-center">
 				<picture>
 					<source media="(min-width: 1400px)" srcset="img/1366/compiler.jpg">
 					<source media="(min-width: 500px)" srcset="img/medium/compiler.jpg">
@@ -70,14 +74,14 @@
 						title="Compiler for the programming language Tiger">
 				</picture>
 				<h2 class="text-center">Tiger Compiler</h2>
-				<div class="center-a">
-					<a class="text-center" target="_blank" href="https://github.com/oisbel/TigerCompiler.git"
+				<div>
+					<a target="_blank" href="https://github.com/oisbel/TigerCompiler.git"
 						title="Compiler for the programming language Tiger">
 						https://github.com/TigerCompiler
-				</a>
+					</a>
 				</div>
 			</div>
-			<div class="project">
+			<div class="project text-center">
 				<picture>
 					<source media="(min-width: 1400px)" srcset="img/1366/vitrola.jpg">
 					<source media="(min-width: 500px)" srcset="img/medium/vitrola.jpg">
@@ -85,14 +89,14 @@
 						title="A modernized antique record player developed .NET">
 				</picture>
 				<h2 class="text-center">Vitrola</h2>
-				<div class="center-a">
-					<a class="text-center" target="_blank" href="https://github.com/oisbel/Vitrola.git"
+				<div>
+					<a target="_blank" href="https://github.com/oisbel/Vitrola.git"
 						title="A modernized antique record player developed .NET">
 						https://github.com/Vitrola
-				</a>
+					</a>
 				</div>
 			</div>
-			<div class="project">
+			<div class="project text-center">
 				<picture>
 					<source media="(min-width: 1400px)" srcset="img/1366/lotto.jpg">
 					<source media="(min-width: 500px)" srcset="img/medium/lotto.jpg">
@@ -100,29 +104,62 @@
 						title="Tool for lottery games (to study the statistics of the behavior of the lottery)">
 				</picture>
 				<h2 class="text-center">Lotto</h2>
-				<div class="center-a">
-					<a class="text-center" target="_blank" href="https://github.com/oisbel/Lotto.git"
+				<div>
+					<a target="_blank" href="https://github.com/oisbel/Lotto.git"
 						title="Tool for lottery games (to study the statistics of the behavior of the lottery)">
 						https://github.com/Lotto
-				</a>
+					</a>
 				</div>
 			</div>
-			<div class="project">
+			<div class="project text-center">
 				<picture>
 					<source media="(min-width: 1400px)" srcset="img/1366/graph.jpg">
 					<source media="(min-width: 500px)" srcset="img/medium/graph.jpg">
 					<img src="img/500/graph.jpg" alt="Bayesian Networks"
 						title="Working with Bayesian networks using GraphSharp library (c#)">
 				</picture>
-				<h2 class="text-center">Bayesian Networks</h2>
-				<div class="center-a">
-					<a class="text-center" target="_blank" href="download/Bayesian-Networks.rar"
+				<h2>Bayesian Networks</h2>
+				<div>
+					<a target="_blank" href="download/Bayesian-Networks.rar"
 						title="Working with Bayesian networks using GraphSharp library (c#)">
 						download: Bayesian-Networks.rar
-				</a>
+					</a>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!--/.Projects's container-->
+	<footer>
+  		<div class="panel">
+                <div class="arrow"></div>
+                <div class="panel-footer">
+  					<ul class="navigation text-center">
+  						<li>
+  							<a target="_blank"  href="https://www.linkedin.com/in/oisbel-simpson-366872107/">
+  								Linkedin
+  							</a>
+  						</li>
+  						<li>
+  							<a target="_blank"  href="https://github.com/oisbel/">
+  								Github
+  							</a>
+  						</li>
+  						<li>
+  							<a target="_blank"  href="download/Bachelor.jpeg">
+  								Education
+  							</a>
+  						</li>
+  						<li>
+  							<a target="_blank"  href="download/Simpson.Resume.docx">
+  								Resume
+  							</a>
+  						</li>
+  					</ul>
+  					<p class="text-center">I'm enrolled in Full Stack Web Developer at Udacity.
+                		I'm a software engineer prepared for development software
+                     	and algorithms in many programming languages.</p>
+                </div>
+            </div>
+	</footer>
 </body>
 </html>
