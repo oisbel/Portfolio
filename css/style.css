@@ -11,7 +11,9 @@ body {
 	background: transparent;
 }
 
-img, embed,object {
+img,
+embed,
+object {
 	max-width: 100%;
 }
 
@@ -32,16 +34,19 @@ h2 {
 	margin: 10px;
 }
 
-h3, a {
+h3,
+a {
 	color: #7d97ad;
 }
 
-h1, h2, h5 {
+h1,
+h2,
+h5 {
 	text-transform: uppercase;
 }
 
 h5 {
-	margin: 0px;
+	margin: 0;
 }
 
 .text-center {
@@ -101,7 +106,7 @@ h5 {
 .project img {
 	width: auto;
 	height: auto;
-	box-shadow: 0px 0px 12px -4px rgba(0,0,0,0.75);
+	box-shadow: 0 0 12px -4px rgba(0,0,0,0.75);
 }
 
 .project img:hover {
@@ -122,7 +127,7 @@ h5 {
     display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	text-shadow: 0px 0px 26px rgba(0,0,0,0.75);
+	text-shadow: 0 0 26px rgba(0,0,0,0.75);
  }
 
  .navigation a {
@@ -163,13 +168,14 @@ h5 {
     animation-name: arrow;
 }
 
-.arrow, .arrow:before {
+.arrow,
+.arrow:before {
 	display: flex;
 	margin: auto;
 }
 
 #feature-work {
-	margin: 0px;
+	margin: 0;
 	padding: 10px;
 }
 
@@ -233,8 +239,8 @@ h5 {
 		height: 1px;
 	}
     .main-image {
-		padding-left: 0px;
-		padding-right: 0px;
+		padding-left: 0;
+		padding-right: 0;
 	}
 	h1{
         font-size: 16px;
